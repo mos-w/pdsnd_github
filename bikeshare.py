@@ -24,7 +24,7 @@ def get_filters():
             if city == 'chicago' or city == 'new york city' or city == 'washington':
                break
             else:
-                print('Choose among Chicago, New York City, or Washington')
+                print('Please choose among Chicago, New York City, or Washington')
         except Exception as e:
             print(e)
 
